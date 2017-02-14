@@ -2,3 +2,4 @@
 .idea
 *.xpi
 .DS_Store
+bootstrap.js
