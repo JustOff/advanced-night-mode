@@ -1,5 +1,5 @@
 :root {
-    --dark-background-light-text-add-on-foreground-color: #{default_foreground_color} !important;
+    --advanced-night-mode-add-on-foreground-color: #{default_foreground_color} !important;
 }
 
 html, page, window {

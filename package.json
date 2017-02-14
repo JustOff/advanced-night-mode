@@ -1,28 +1,22 @@
 {
-  "license": "MIT",
-  "description": "Makes every page (or only pages that you want) to have light text on dark background. Exact colors are customizable.",
+  "license": "MPL 2.0",
+  "description": "Customizable Night Mode for Pale Moon",
   "engines": {
-    "{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}": ">=27.1.0b1",
-    "firefox": ">=38.0",
-    "fennec": ">=38.0"
+    "{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}": ">=27.1.0b1"
   },
-  "author": "Mikhail Khvoinitsky <dark-bg-light-text-mozilla@khvoinitsky.org>",
-  "title": "Dark Background and Light Text",
-  "version": "0.5.9.1",
-  "permissions": {
-    "private-browsing": true,
-    "multiprocess": true
-  },
-  "preferences": [
-    {
-      "type": "control",
-      "label": "Open Add-on Preferences",
-      "name": "open_addon_prefs",
-      "title": "Click here to open preferences"
-    }
+  "author": "Off JustOff <Off.Just.Off@gmail.com>",
+  "contributors": [
+    "Mikhail Khvoinitsky <dark-bg-light-text-mozilla@khvoinitsky.org>"
   ],
+  "title": "Advanced Night Mode",
+  "version": "1.0.1",
+  "permissions": {
+    "private-browsing": true
+  },
+  "preferencesURL": "resource://advancednightmode-at-off-dot-justoff/data/preferences.html",
   "main": "lib/index.js",
-  "id": "jid1-QoFqdK4qzUfGWQ@jetpack",
-  "name": "dark-background-light-text",
-  "icon": "icon.png"
+  "id": "AdvancedNightMode@Off.JustOff",
+  "name": "advanced-night-mode",
+  "icon": "icon.png",
+  "homepage": "https://github.com/JustOff/advanced-night-mode"
 }

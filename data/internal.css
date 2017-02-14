@@ -1,5 +1,5 @@
 :root {
-    --dark-background-light-text-add-on-foreground-color: black;
+    --advanced-night-mode-add-on-foreground-color: black;
 }
 
 html, body {
@@ -42,7 +42,7 @@ button {
     border-radius: 0.2em;
     border-width: 1px;
     /* similar selector from base.css has higher specificity and should overwrite color below but it doesn't (bug?) */
-    border-color: var(--dark-background-light-text-add-on-foreground-color);
+    border-color: var(--advanced-night-mode-add-on-foreground-color);
     border-style: solid;
     background-color: white;
     transition-duration: 0.3s;
