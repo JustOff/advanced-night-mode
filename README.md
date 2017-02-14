@@ -1,1 +1,1 @@
-# Advanced Night Mode
+**Advanced Night Mode** provides three customizable schemes to invert colors in **Pale Moon** browser for comfortable surfing at night. Different methods of darkening can be applied or disabled selectively for different pages and sites.
