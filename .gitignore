@@ -3,3 +3,4 @@
 *.xpi
 .DS_Store
 bootstrap.js
+install.rdf
