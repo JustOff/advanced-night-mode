@@ -29,3 +29,22 @@ textarea {
 @-moz-document domain(facebook.com) {
 
 }
+
+@-moz-document regexp(".*\\.pdf$") {
+  html {
+    filter: none !important;
+  }
+  body {
+    background-color: #1A1A1A !important;
+  }
+  #toolbarContainer, .findbar, .secondaryToolbar {
+    background-image: none !important;
+    background-color: #262626 !important;
+  }
+  #viewerContainer {
+    filter: invert(100%) hue-rotate(180deg) !important;
+  }
+  .pdfViewer .page {
+    border-image: none !important;
+  }
+}
