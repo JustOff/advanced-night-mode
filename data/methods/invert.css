@@ -35,11 +35,11 @@ textarea {
     filter: none !important;
   }
   body {
-    background-color: #1A1A1A !important;
+    background-color: #{default_pdf_color} !important;
   }
   #toolbarContainer, .findbar, .secondaryToolbar {
     background-image: none !important;
-    background-color: #262626 !important;
+    background-color: #{default_pdf_color} !important;
   }
   #viewerContainer {
     filter: invert(100%) hue-rotate(180deg) !important;
