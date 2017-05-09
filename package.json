@@ -9,7 +9,7 @@
     "Mikhail Khvoinitsky <dark-bg-light-text-mozilla@khvoinitsky.org>"
   ],
   "title": "Advanced Night Mode",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "permissions": {
     "private-browsing": true
   },
