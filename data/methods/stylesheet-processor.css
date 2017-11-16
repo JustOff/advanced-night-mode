@@ -1,9 +1,11 @@
-/*TODO: some webpages set html's bgcolor to transparent which is becomes white */
+/* some webpages set html's bgcolor to transparent which is becomes white so it should be !important */
 html {
-    background-color: #{default_background_color} {important_for_toplevel};
+{if_toplevel_start}
+    background-color: #{default_background_color} !important;
+{if_toplevel_end}
     color: #{default_foreground_color} !important; /* #29 */
 }
-                                                                                                /*                  last.fm                           */
+/*                  last.fm                           */
 /*[style*='background']:not(.newtab-thumbnail):not(.colorpicker-button-colorbox):not(.colorpickertile):not(.cover-image):not(.sidekick-image):not(.hero-image):not(.embed2yt-thumbnail),
 [bgcolor] {
     background-color: #000000 !important;
