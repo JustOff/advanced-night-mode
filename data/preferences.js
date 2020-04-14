@@ -35,6 +35,12 @@ self.port.on('style', function(css){
 
 self.port.on('init', function(data){
     methods = data['methods'];
+    var isBrighttext = data['isBrighttext'];
+    if (isBrighttext) {
+        var favicon = document.querySelector("link[rel=icon]");
+        favicon.href = "resource://advancednightmode-at-off-dot-justoff/data/icon64i.png";
+        document.getElementsByTagName("head")[0].appendChild(favicon);
+    }
     var isTouchscreen = data['isTouchscreen'];
     var container = document.querySelector('#main');
     if (isTouchscreen)

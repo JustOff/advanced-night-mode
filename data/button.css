@@ -1,0 +1,5 @@
+@-moz-document url(chrome://browser/content/browser.xul) {
+    toolbar[brighttext] #toggle-button--advancednightmodeoffjustoff-configure-for-current-tab-button .toolbarbutton-icon {
+        filter: invert(1);
+    }
+}
