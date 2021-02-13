@@ -1,6 +1,9 @@
 .*
 *.xpi
 *.zip
+*.exe
+release.cmd
+update.xml
 test/
 README.md
 lib/css-color-parser/README

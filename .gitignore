@@ -1,6 +1,7 @@
 .directory
 .idea
 *.xpi
+*.exe
 .DS_Store
 bootstrap.js
 install.rdf

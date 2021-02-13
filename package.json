@@ -16,7 +16,7 @@
   "preferencesURL": "resource://advancednightmode-at-off-dot-justoff/data/preferences.html",
   "main": "lib/index.js",
   "id": "AdvancedNightMode@Off.JustOff",
-  "name": "advanced-night-mode",
+  "name": "advanced-night-mode-1.0.9",
   "icon": "icon.png",
   "homepage": "https://github.com/JustOff/advanced-night-mode"
 }
