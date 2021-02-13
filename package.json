@@ -9,14 +9,14 @@
     "Mikhail Khvoinitsky <dark-bg-light-text-mozilla@khvoinitsky.org>"
   ],
   "title": "Advanced Night Mode",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "permissions": {
     "private-browsing": true
   },
   "preferencesURL": "resource://advancednightmode-at-off-dot-justoff/data/preferences.html",
   "main": "lib/index.js",
   "id": "AdvancedNightMode@Off.JustOff",
-  "name": "advanced-night-mode-1.0.10",
+  "name": "advanced-night-mode-1.0.11",
   "icon": "icon.png",
   "homepage": "https://github.com/JustOff/advanced-night-mode",
   "updateURL": "https://raw.githubusercontent.com/JustOff/advanced-night-mode/master/update.xml"

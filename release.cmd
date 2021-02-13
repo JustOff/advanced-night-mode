@@ -1,5 +1,5 @@
 @echo off
-set VER=1.0.10
+set VER=1.0.11
 
 sed -i -E "s/\"version\": \".+?\"/\"version\": \"%VER%\"/; s/\"name\": \".+?\"/\"name\": \"advanced-night-mode-%VER%\"/" package.json
 sed -i -E "s/version>.+?</version>%VER%</; s/download\/.+?\/advanced-night-mode-.+?\.xpi/download\/%VER%\/advanced-night-mode-%VER%\.xpi/" update.xml
