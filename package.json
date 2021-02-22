@@ -18,5 +18,6 @@
   "id": "AdvancedNightMode@Off.JustOff",
   "name": "advanced-night-mode-1.0.12",
   "icon": "icon.png",
-  "homepage": "https://github.com/JustOff/advanced-night-mode"
+  "homepage": "https://github.com/JustOff/advanced-night-mode",
+  "updateURL": "https://raw.githubusercontent.com/JustOff/advanced-night-mode/master/update.xml"
 }
